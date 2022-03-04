@@ -1,7 +1,7 @@
 # RDSInstanceTool
 SQl server To RDS Instance matching tool :
 Installation Steps: 
-****shoulbe  installed  on a computer with Excel sheet ****
+****should be  installed  on a computer with Excel sheet ****
 1-Extract RDSSqlServerInstanceTool.zip on c:\RDSSQL 
   The tool has 2 files RdsInstanceTool.exe and RDSSQLInstances.  
 2- Create an input file that contain a list of all your Sql Server that you are trying to match with RDS 
