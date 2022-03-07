@@ -2,8 +2,9 @@
 Sql server To RDS Instance matching tool:
 Installation Steps: 
 
-**** this is simpley a compiled Powershell script .should be installed on a computer with Excel sheet and powershell ( with Sqlserver Module installed)  
+**** should be installed on a computer with Excel sheet and powershell ( with Sqlserver Module installed)  
    More about the sql server module https://docs.microsoft.com/en-us/sql/powershell/sql-server-powershell?view=sql-server-ver15
+   Your Maleware may flag this as a risk since it is an exe but it is totaly safe to run, this is just simpley a compiled Powershell script 
 ****
 
 1-Extract RDSSqlServerInstanceTool.zip on c:\RDSSQL
