@@ -2,7 +2,9 @@
 Sql server To RDS Instance matching tool:
 Installation Steps: 
 
-****should be installed on a computer with Excel sheet ****
+**** this is simpley a compiled Powershell script .should be installed on a computer with Excel sheet and powershell ( with Sqlserver Module installed)  
+   More about the sql server module https://docs.microsoft.com/en-us/sql/powershell/sql-server-powershell?view=sql-server-ver15
+****
 
 1-Extract RDSSqlServerInstanceTool.zip on c:\RDSSQL
   The tool has 2 files RdsInstanceTool.exe and RDSSQLInstances.xlsx.
@@ -46,4 +48,10 @@ Output:
         
   3-the tool as of today will only match standard and Enterprise Edition with Minimum of 4 CPU (Xlarge)  
   4-10xlrage is only available for general purpose instances not for Memory Optimized. 
+  
+  Bugs:
+   1-If Sqlserver Module is not loaded the app will fail
+   2- Excel Sheet Com object reamins opened .
+ 
+   
   
